@@ -1,0 +1,12 @@
+[package]
+name = "myrustlib"
+version = "0.1.0"
+authors = ["jtr109 <lyp_login@outlook.com>"]
+edition = "2018"
+
+[lib]
+name = "myrustlib"
+crate-type = ["cdylib"]
+
+[dependencies]
+cpython = { version = "0.3.0", features = [ "extension-module" ] }
